@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="expectedTestResult" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTests">
+        <methods>
+          <include name="setDriver"/>
+          <include name="duckduckgo"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

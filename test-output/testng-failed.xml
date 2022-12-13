@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [book flight]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="dukduckgo failure(failed)">
+    <parameter name="expectedTestResult" value="xyz"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTests">
+        <methods>
+          <include name="setDriver"/>
+          <include name="duckduckgo" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTests -->
+    </classes>
+  </test> <!-- dukduckgo failure(failed) -->
+</suite> <!-- Failed suite [book flight] -->

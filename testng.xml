@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="book flight" parallel="tests" >
+
+	<test name="bookflight for 2 passagers">
+		<parameter name="noOfPassengers" value="2" />
+		<parameter name="expectedTextConf" value="Confirmation" />
+		<classes>
+			<class name="com.aut.tests.BookFlightTest" />
+		</classes>
+	</test>
+
+
+	<test name="bookflight for 3 passagers">
+		<parameter name="noOfPassengers" value="3" />
+		<parameter name="expectedTextConf" value="Confirmation" />
+		<classes>
+			<class name="com.aut.tests.BookFlightTest" />
+		</classes>
+	</test>
+
+	<test name="dukduckgo failure">
+		<parameter name="expectedTestResult" value="xyz" />
+		<classes>
+			<class name="com.duckduckgo.tests.SearchTests" />
+		</classes>
+	</test>
+
+	<test name="dukduckgo pass1">
+		<parameter name="expectedTestResult" value="java" />
+		<classes>
+			<class name="com.duckduckgo.tests.SearchTests" />
+		</classes>
+	</test>
+	
+	<test name="dukduckgo pass2">
+		<parameter name="expectedTestResult" value="javascript" />
+		<classes>
+			<class name="com.duckduckgo.tests.SearchTests" />
+		</classes>
+	</test>
+	
+</suite>
