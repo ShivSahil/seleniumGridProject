@@ -19,12 +19,12 @@
 		</classes>
 	</test>
 
-	<test name="dukduckgo failure">
+	 <!-- <test name="dukduckgo failure">
 		<parameter name="expectedTestResult" value="xyz" />
 		<classes>
 			<class name="com.duckduckgo.tests.SearchTests" />
 		</classes>
-	</test>
+	</test>  -->
 
 	<test name="dukduckgo pass1">
 		<parameter name="expectedTestResult" value="java" />
