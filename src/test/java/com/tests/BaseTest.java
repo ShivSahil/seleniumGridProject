@@ -26,7 +26,7 @@ public class BaseTest {
 		
 		// below are default values which is given to host and
         String host = "172.16.18.24";
-        DesiredCapabilities dc=DesiredCapabilities.chrome();
+        // DesiredCapabilities dc=DesiredCapabilities.chrome();
 
         if(System.getProperty("BROWSER") != null &&
                 System.getProperty("BROWSER").equalsIgnoreCase("chrome")){
