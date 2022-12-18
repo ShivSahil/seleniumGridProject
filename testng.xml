@@ -2,7 +2,7 @@
 
 <suite name="book flight" parallel="tests" >
 
-	<test name="bookflight for 2 passagers">
+	<!-- <test name="bookflight for 2 passagers">
 		<parameter name="noOfPassengers" value="2" />
 		<parameter name="expectedTextConf" value="Confirmation" />
 		<classes>
@@ -19,7 +19,7 @@
 		</classes>
 	</test>
 
-	 <!-- <test name="dukduckgo failure">
+	  <test name="dukduckgo failure">
 		<parameter name="expectedTestResult" value="xyz" />
 		<classes>
 			<class name="com.duckduckgo.tests.SearchTests" />
